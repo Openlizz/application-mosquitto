@@ -31,15 +31,6 @@ values:
       repository: github.com/openlizz/application-domain-name
       path: configmap.yaml
       keys: ["data", "value"]
-  passwords:
-    - name: adminPassword
-      description: "Password for the admin account."
-      print: true
-      length: 12
-      numDigits: 5
-      numSymbols: 0
-      noUpper: false
-      allowRepeat: false
 dependsOn:
   {{- if index . "isNginxInstalled" }}
   - name: {{index . "nginxName"}}

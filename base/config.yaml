@@ -13,5 +13,5 @@ data:
     password_file /mosquitto/config/password.txt
   
   password.txt: |
-    admin:{{ index . "adminPassword" }}
+    admin:$7$101$AKOBw7sRgjlVbIHp$3JRtCzk4rkHl8qGspjcEKhzHyh9VIaqu2BvUfGk0i0eaSOno4l8s7Z9VamTunWgQ+zRSVwWdlGnom8QHlOTSwg==
 
