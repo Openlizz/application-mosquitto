@@ -19,7 +19,7 @@ lizz add github \
     --fleet=fleet \
     --origin-url=https://github.com/openlizz/application-mosquitto \
     --path=./default \
-    --destination=freshrss \
+    --destination=mosquitto \
     --personal
 ```
 
