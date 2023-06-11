@@ -29,9 +29,10 @@ spec:
     service:
       main:
         ports:
-          tcp:
+          http:
             port: 1883
           websocket:
+            enabled: true
             port: 9001
     ingress:
       main:
